@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>DataLife Engine</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: black;
+	background-color: white;
+	text-align: center;
+	font-size:11px;
+	/* part 1 of 2 centering hack */
+	}
+
+#main {
+	width: 620px;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #ffc;
+	border: 1px groove #333;
+	text-align:left;
+	}
+
+html>body #content {
+	width: 584px; /* ie5win fudge ends */
+	}
+
+.fineprint {
+	border:1px solid black;
+	padding:8px;
+	background:#ffffff;
+	text-align:justify;
+}
+
+.text, li {
+	font-family:verdana, sans-serif;
+	font-size:11px;
+	margin-left:20px;
+	margin-right:20px;
+	line-height:140%;
+	text-align:justify;
+}
+
+.tiny {
+	font-family:verdana, sans-serif;
+	font-size:11px;
+	margin-bottom:10px;
+}
+li {
+    margin-bottom:12px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="main">
+    <div align="center"><h1><b>DataLife Engine</b></h1></div>
+    <p align="center"><b>Коротка інформація про нове встановлення скрипта на сервер</b></p>
+    <div class="text">
+<p><b>Дорогі друзі!!!</b><br /><br />Ми вдячні Вам за те, що Ви вирішили використовувати наш скрипт для свого сайту. Незважаючи на те, що ми докладаємо великих зусиль, щоби зробити скрипт якнайдоступнішим і зрозумілим, ми наполегливо рекомендуємо Вам ознайомитися з повною документацією скрипта, перш ніж розпочати роботу з ним. Документація доступна у файлі <a href="readme.chm">readme.chm</a>.</p>
+<p><b>1. Установлення скрипта на сервер</b> </p>
+<p>Установлення скрипта на сервер відбувається в автоматичному режимі і не має викликати особливих проблем, але Вам потрібно виконати деякі дії з налаштування прав доступу на теки.</p>
+<ol type="1">
+<li>
+Для початку скопіюйте всі файли з теки <b>upload</b> у цьому архіві на Ваш сервер.
+</li>
+
+<li>
+Установіть для теки <b>templates</b> і всіх вкладених у неї тек права на запис (CHMOD 777)
+</li>
+
+<li>
+Установіть права для запису (CHMOD 777) для тек <b>backup</b>, <b>uploads</b>, а також для всіх тек, що містяться всередині них.
+</li>
+
+<li>
+Установіть права для запису (CHMOD 777) для тек <b>/engine/data/</b>, <b>/engine/cache/</b>.
+</li>
+
+<li>
+Запустіть файл <b>install.php</b> і дотримуйтеся його інструкцій. Автоматичний установлювач перевірить усі потрібні файли і налаштує під'єднання до бази даних. Після завершення встановлення Ви можете переглянути роботу скрипта на демонстраційній сторінці <b>http://website.com/index.php</b>. Для доступу до адмінпанелі потрібно запустити <b>http://website.com/admin.php</b>
+</li>
+</ol>
+<div class="fineprint">
+        <p><font color="red">Увага!</font> Після встановлення або оновлення скрипта, на сервері обов'язково видаліть файл <b>install.php</b>, інакше буде можливо знову ініціювати процес установлення скрипта і цим знищити поточну структуру даних.</p>       
+    </div>
+<p>Надіємося, що робота з нашим скриптом потішить Вас.<br /><br /><b>З повагою,<br /><br />SoftNews Media Group</b></p>
+
+</div>
+</div>
+<br />
+</body></html>
